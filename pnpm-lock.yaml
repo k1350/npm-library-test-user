@@ -1,0 +1,28 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@k1350/npm-library-test':
+    specifier: 0.0.3-next.2
+    version: 0.0.3-next.2
+
+devDependencies:
+  typescript:
+    specifier: ^5.3.3
+    version: 5.3.3
+
+packages:
+
+  /@k1350/npm-library-test@0.0.3-next.2:
+    resolution: {integrity: sha512-wZnYM88c7aP38Fi+zfRAAtEL9qlhTYqRmPKuiUXjWkb97zWUTako/Gjb1tuxx5SKgDA2Yfwe9UBnIgj3pK60mA==, tarball: https://npm.pkg.github.com/download/@k1350/npm-library-test/0.0.3-next.2/bd60d116a261a6014a58eeaabe8f8878d9b6ccd7}
+    engines: {npm: please_use_pnpm_instead, pnpm: '>=8.15.1'}
+    dev: false
+
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
