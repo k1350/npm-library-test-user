@@ -8,7 +8,7 @@ export function HelloWorld() {
     console.log(TEST);
     const test: TestType = "3";
     console.log('Hello World', test)
-    console.log( Test3Child());
+    console.log(Test3Child());
 }
 
 HelloWorld();
