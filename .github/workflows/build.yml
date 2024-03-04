@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     permissions:
       contents: read
       packages: read
@@ -17,6 +16,8 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com'
       - run: corepack enable pnpm
+      - name: Set pnpm config
+        run: pnpm config set "//npm.pkg.github.com/:_authToken" "${{ secrets.GITHUB_TOKEN }}"
       - name: Cache Dependency
         uses: actions/cache@v4
         id: cache_dependency_id
