@@ -2,10 +2,10 @@
   "name": "@k1350/npm-libray-test-user",
   "version": "0.0.1",
   "engines": {
-    "pnpm": ">=8.15.1",
+    "pnpm": ">=8.15.4",
     "npm": "please_use_pnpm_instead"
   },
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@8.15.4",
   "type": "module",
   "scripts": {
     "build": "tsc",
