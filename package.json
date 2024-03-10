@@ -15,6 +15,6 @@
     "@k1350/npm-library-test": "0.1.1"
   },
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   }
 }
